@@ -1,6 +1,5 @@
 {
   "name": "newzter",
-  "homepage": " https://kjkrishnakj.github.io/Newzter",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -19,7 +18,8 @@
   "scripts": {
     "predeploy" : "npm run build", 
     "deploy": "gh-pages -d build", 
-    "start": "react-scripts start",
+    "start": "react-scripts start --host 0.0.0.0",
+
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
