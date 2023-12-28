@@ -41,7 +41,12 @@ render() {
           <Route path="/sports" element={<News apiKey = {this.apiKey} setProgress =  {this.setProgress} key='sports' pageSize={15} country="in" category="sports" />}></Route>
           <Route path="/technology" element={<News apiKey = {this.apiKey} setProgress =  {this.setProgress} key='technology' pageSize={15} country="in" category="technology" />}></Route>
 
-        </Routes>
+        </Routes> 
+        <footer className="bg-primary text-light text-center py-3">
+      <div className="container">
+        <p>&copy; 2023 Newzter. All rights reserved.</p>
+      </div>
+    </footer>
 
       </Router>
     )
