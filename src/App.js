@@ -18,7 +18,7 @@ setProgress= (progress)=>{
 }
 render() {
   return (
-    <Router>
+    <Router basename='/Newzter'>
 
         <Navbar />
         <div>
