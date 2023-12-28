@@ -6,7 +6,7 @@ import About from './components/About';
 import LoadingBar from 'react-top-loading-bar';
 import {
   Routes,
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
 } from "react-router-dom";
 export default class App extends Component {
@@ -18,7 +18,7 @@ setProgress= (progress)=>{
 }
 render() {
   return (
-    <Router basename='/Newzter'>
+    <Router >
 
         <Navbar />
         <div>
