@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Newzter/static/css/main.dc4d6ff2.css",
+    "main.js": "/Newzter/static/js/main.e31d58b0.js",
+    "static/js/787.916ee84b.chunk.js": "/Newzter/static/js/787.916ee84b.chunk.js",
+    "index.html": "/Newzter/index.html",
+    "main.dc4d6ff2.css.map": "/Newzter/static/css/main.dc4d6ff2.css.map",
+    "main.e31d58b0.js.map": "/Newzter/static/js/main.e31d58b0.js.map",
+    "787.916ee84b.chunk.js.map": "/Newzter/static/js/787.916ee84b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.e31d58b0.js"
+  ]
+}
